@@ -1,40 +1,102 @@
 # Exno-3-Prompt-Engg
 
-# Ex.No: 3 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
-ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE:                                                                            
-### REGISTER NUMBER 
+# Ex.No: 3 	
+Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### DATE: 09/05/2025                                                                           
+### REGISTER NUMBER : 212222040039
  
-### Aim:
-To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
+## Aim:
+To design an AI-powered healthcare assistant chatbot that supports users in:
 
-### Algorithm:
-Define the Use Case:
-Select a specific task for evaluation across platforms (e.g., summarizing a document, answering a technical question, or generating a creative story / Code).
-Ensure the use case is applicable to all platforms and will allow for comparison across response quality, accuracy, and depth.
-Create a Set of Prompts:
-Prepare a uniform set of prompts that align with the chosen use case.
-Each prompt should be clear and precise, ensuring that all platforms are evaluated using the same input.
-Consider multiple prompts to capture the versatility of each platform in handling different aspects of the use case.
-Run the Experiment on Each AI Platform:
-Input the prompts into each AI tool (ChatGPT, Claude, Bard, Cohere Command, and Meta) and gather the responses.
-Ensure the same conditions are applied for each platform, such as input format, time to respond, and prompt delivery.
-Record response times, ease of interaction with the platform, and any technical issues encountered.
-Evaluate Response Quality:
-Assess each platform’s responses using the following criteria: Accuracy,Clarity,Depth,Relevance 
-Compare Performance:
-Compare the collected data to identify differences in performance across platforms.
-Identify any platform-specific advantages, such as faster response times, more accurate answers, or more intuitive interfaces.
-Deliverables:
-A comparison table outlining the performance of each platform (ChatGPT, Claude, Bard, Cohere Command, and Meta) based on accuracy, clarity, depth, and relevance of responses.
-A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
+Symptom checking
 
+Appointment scheduling
 
+Health FAQs
 
+The chatbot should respond efficiently using Straightforward Prompting, Tabular Format Prompting, and Preceding Question Prompting techniques.
 
-# Result : The Prompt for the above problem statement executed successfully.
+## Tools Required:
+1.AI text generation platforms (ChatGPT, Claude, etc.)
 
+2.Word/Excel for prompt and response documentation
 
+3.Internet access for AI model testing (if needed)
+
+## Theory:
+Prompt engineering tailors inputs to guide AI models for accurate and user-centric responses. The three prompting methods used are:
+
+Straightforward Prompting:
+                   Direct command or question to extract a concise response.
+
+Tabular Format Prompting:
+                  Organizing complex or multi-point information into tables for clarity.
+
+Preceding Question Prompting:
+                  Creating a back-and-forth conversational flow to solve layered user issues.
+
+## Experiment Procedure:
+We simulated 3 core healthcare service scenarios:
+
+1.Symptom Checker
+
+2.Appointment Scheduling
+
+3.Health FAQs
+
+Each scenario was tested using all three prompting techniques.
+
+## Scenarios and Prompts
+
+## Scenario 1: Symptom Checker
+
+# Prompt	                                                             Prompting Type	                  Bot Response
+1."I have a sore throat and fever."	                                  Straightforward Prompt	         "These symptoms could indicate a viral infection such as flu. Please consider seeing a doctor if it persists."
+
+2."Show possible causes of sore throat and fever with                 Tabular Format Prompt           	Table with columns: Symptom, Possible Cause, Remedy, Urgency Level
+suggested remedies in a table."	
+
+"I feel feverish." ➔ "Do you have other symptoms?" ➔                Preceding Question Prompt	       Progressive, engaging diagnosis flow
+"Yes, sore throat and chills." ➔ "You might have a cold or flu.
+Do you want to find a clinic nearby?"	
+
+# Scenario 2: Appointment Scheduling
+
+# Prompt	                                                             Prompting Type	                   Bot Response
+1."Book an appointment with a dentist tomorrow morning."	             Straightforward Prompt	           "Your appointment with a dentist is scheduled for 10 AM tomorrow."
+
+2."List available time slots for Dr. Mehta on Friday in a table."	    Tabular Format Prompt	             Table showing Time Slots, Availability, Location
+
+3."I need a cardiologist." ➔ "Preferred time?" ➔ "Evening today."    Preceding Question Prompt	        Dynamic scheduling interaction
+➔ "Dr. Rao is available at 6:30 PM. Shall I book it?"	
+
+# Scenario 3: Health FAQs
+## Prompt	                                                               Prompting Type	                   Bot Response
+1."What is the normal blood pressure range?"                            	Straightforward Prompt	           "Normal blood pressure is usually around 120/80 mmHg."
+
+2."List common health parameters and their normal ranges in a table."	   Tabular Format Prompt	             Table with columns: Parameter, Normal Range, Measurement Frequency
+
+3."Is 140/90 high?" ➔ "Yes, it may indicate stage 1 hypertension."      Preceding Question Prompt	         Helpful follow-up guidance
+➔ "What should I do?"	
+
+# Analysis
+# Prompting Type           	Best Used For	                               Strengths	                         Weaknesses
+Straightforward	            Quick                                        factual health tips	Speedy         informative	May miss nuance
+Tabular Format	             Health stats                                 comparisons	Very clear             easy to scan	Not interactive
+Preceding Question	         Symptom triage                               appointment booking	Natural        patient-like interaction	Slower, complex flow
+
+# Evaluation and Observations
+1.Straightforward Prompting gave rapid answers suitable for FAQ-style questions.
+
+2.Tabular Prompting worked best for structured medical data like normal ranges or time slots.
+
+3.Preceding Question Prompting gave a personalized, context-aware experience for health concerns.
+
+# Conclusion:
+The AI-powered healthcare chatbot successfully used three prompting methods to handle health inquiries, symptoms, and appointment needs. Prompting variation improves flexibility and user satisfaction.
+
+# Result:
+Prompts were successfully implemented in a healthcare assistant context, demonstrating the chatbot’s capability to assist users with health-related needs using effective prompt engineering.
 
 
 
